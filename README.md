@@ -26,7 +26,7 @@ This project provides functionality for fetching upward (parent) and downward (c
 **Step 1:** Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo-url.git
+git clone https://github.com/nicknguyen-cs/Reference-Fetcher.git
 cd your-repo-folder
 ```
 
@@ -59,7 +59,7 @@ LOCALE_CODE=en-us
 Run the script to fetch and display references:
 
 ```bash
-npm run fetch-references
+npm start
 ```
 
 You can modify the logic in `index.js` to integrate into your application or workflow.
@@ -76,13 +76,8 @@ You can modify the logic in `index.js` to integrate into your application or wor
 
 ## 📝 Notes
 
-- Ensure your Contentstack API key has the necessary permissions.
 - The script defaults to locale `en-us`. Update accordingly if your content uses a different locale.
-- Always keep your `.env` file out of source control. Utilize `.env.example` to document required configurations.
-
-## 🚀 Contributing
-
-Feel free to contribute improvements or report issues by opening a GitHub issue or submitting a Pull Request.
+- Utilize `.env.example` to document required configurations.
 
 ## 📚 License
 
