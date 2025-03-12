@@ -98,7 +98,7 @@ You can modify the logic in `index.js` to integrate into your application or wor
 | Variable               | Description                                   |
 |------------------------|-----------------------------------------------|
 | `API_KEY`              | Contentstack API Key                           |
-| `AUTHORIZATION_TOKEN`  | Contentstack Management Token                  |
+| `AUTHORIZATION`  | Contentstack Management Token                  |
 | `ENTRY_UID`            | UID of the content entry                       |
 | `CONTENT_TYPE_UID`     | UID of the entry’s content type                |
 | `LOCALE_CODE`          | Locale code (`en-us`, etc.)                    |
