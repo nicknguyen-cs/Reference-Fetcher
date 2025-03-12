@@ -14,7 +14,6 @@ This project provides functionality for fetching upward (parent) and downward (c
 
 ```
 .
-├── .env                # Environment variables (API Keys, tokens, UIDs)
 ├── .env.example        # Example configuration (tracked in git)
 ├── .gitignore          # Git ignored files configuration
 ├── package.json        # Project dependencies and scripts
