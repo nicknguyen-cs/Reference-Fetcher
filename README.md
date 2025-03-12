@@ -21,6 +21,35 @@ This project provides functionality for fetching upward (parent) and downward (c
 └── index.js            # Main functionality to fetch entry references
 ```
 
+## Example Response
+
+Below is an example of the JSON response you might receive when fetching references:
+
+```json
+[
+  {
+    "entry_uid": "blt...",
+    "content_type_uid": "example",
+    "locale": "en-us",
+    "title": "Example Title",
+    "content_type_title": "Example",
+    "depth": 1 // depth of 1 means above one level.
+  },
+  {
+    "entry_uid": "blt...",
+    "content_type_uid": "reference_2",
+    "depth": -1, // depth of -1 means below one level.
+    "locale": "en-us"
+  },
+  {
+    "entry_uid": "blt...",
+    "content_type_uid": "reference_3",
+    "depth": -2,
+    "locale": "en-us"
+  }
+]
+```
+
 ## 🚧 Setup and Installation
 
 **Step 1:** Clone the repository:

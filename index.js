@@ -9,7 +9,7 @@ const LOCALE_CODE = process.env.LOCALE_CODE || 'en-us';
 
 
 // Fetch upward references recursively
-async function fetchUpwardReferences(entryUid, contentTypeUid, depth = 0, visited = new Set()) {
+async function fetchUpwardReferences(entryUid, contentTypeUid, depth = 1, visited = new Set()) {
   if (visited.has(entryUid)) return [];
 
   visited.add(entryUid);
