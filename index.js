@@ -2,7 +2,7 @@
 import 'dotenv/config';
 
 const API_KEY = process.env.API_KEY;
-const AUTHORIZATION_TOKEN = process.env.AUTHORIZATION_TOKEN;
+const AUTHORIZATION = process.env.AUTHORIZATION_TOKEN;
 const ENTRY_UID = process.env.ENTRY_UID;
 const CONTENT_TYPE_UID = process.env.CONTENT_TYPE_UID;
 const LOCALE_CODE = process.env.LOCALE_CODE || 'en-us';
@@ -21,7 +21,7 @@ async function fetchUpwardReferences(entryUid, contentTypeUid, depth = 1, visite
     headers: {
       'Content-Type': 'application/json',
       'api_key': API_KEY,
-      'authorization': AUTHORIZATION_TOKEN,
+      'authorization': AUTHORIZATION,
     },
   });
 
@@ -53,7 +53,7 @@ async function fetchDownwardReferences(entryUid, contentTypeUid, depth = -1, vis
     headers: {
       'Content-Type': 'application/json',
       'api_key': API_KEY,
-      'authorization': AUTHORIZATION_TOKEN,
+      'authorization': AUTHORIZATION,
     },
   });
 
