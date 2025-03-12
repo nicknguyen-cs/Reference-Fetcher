@@ -77,7 +77,7 @@ Fill in your Contentstack credentials inside the newly created `.env` file:
 
 ```
 API_KEY=your_actual_api_key
-AUTHORIZATION_TOKEN=your_management_token
+AUTHORIZATION=your_management_token
 ENTRY_UID=entry_uid
 CONTENT_TYPE_UID=your_content_type_uid
 LOCALE_CODE=en-us
