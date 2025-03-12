@@ -23,7 +23,7 @@ This project provides functionality for fetching upward (parent) and downward (c
 
 ## Example Response
 
-Below is an example of the JSON response you might receive when fetching references:
+The parent entries have a bit more details due to the nature of an existing api call provided by the management API. Child references have less information because they are found through logic and not the API. Below is an example of the JSON response you might receive when fetching references:
 
 ```json
 [
